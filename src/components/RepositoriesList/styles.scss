@@ -1,0 +1,38 @@
+.Container {
+  margin: 40px;
+
+  .Title {
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-family: sans-serif;
+  }
+
+  ul {
+    list-style: none;
+    h1 {
+      font-size: 20px;
+      font-family: sans-serif;
+    }
+    span {
+      font-size: 14px;
+      color: #444;
+      margin-top: 8px;
+    }
+    li {
+      & + li {
+        margin-top: 20px;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 16px;
+        text-decoration: none;
+        color: #8257e6;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        margin-bottom: 32px;
+      }
+    }
+  }
+}
